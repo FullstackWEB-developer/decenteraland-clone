@@ -247,7 +247,7 @@ export class NavbarComponent extends React.PureComponent<NavbaComponentProps, Na
             <NotMobile>
               <Menu secondary stackable>
                 <a className="dcl navbar-logo" href="https://birdezkingdom.com">
-                  <img src={'../../images/logo.png'} alt="Decentraland" />
+                  {/* <img src={'../../images/logo.png'} alt="Decentraland" /> */}
                   {/* <Logo /> */}
                 </a>
                 {this.renderLeftMenu()}
@@ -256,7 +256,7 @@ export class NavbarComponent extends React.PureComponent<NavbaComponentProps, Na
             <Mobile>
               <div className="dcl navbar-mobile-menu">
                 <a className="dcl navbar-logo" href="https://birdezkingdom.com">
-                  <i style={{ backgroundImage: "url('../../images/logo.png')" }} className="dcl icon-logo" />
+                  {/* <i style={{ backgroundImage: "url('../../images/logo.png')" }} className="dcl icon-logo" /> */}
                   {/* <Logo /> */}
                 </a>
                 <Header
