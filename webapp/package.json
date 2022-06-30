@@ -1,6 +1,6 @@
 {
   "name": "@dcl/marketplace-site",
-  "version": "0.0.0-development",
+  "version": "client",
   "dependencies": {
     "@dcl/crypto": "^3.0.0",
     "@dcl/schemas": "^4.5.0",
