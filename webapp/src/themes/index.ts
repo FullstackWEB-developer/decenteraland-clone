@@ -2,7 +2,8 @@
 import 'dcl-ui/lib/styles.css'
 
 // Theme
-import 'dcl-ui/lib/dark-theme.css'
+// import 'dcl-ui/lib/dark-theme.css'
+import 'dcl-ui/lib/light-theme.css'
 
 // Overrides
 import './components/Button.css'
