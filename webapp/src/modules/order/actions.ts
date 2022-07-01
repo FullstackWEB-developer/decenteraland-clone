@@ -1,6 +1,6 @@
 import { action } from 'typesafe-actions'
 import { Order } from '@dcl/schemas'
-import { buildTransactionPayload } from 'decentraland-dapps/dist/modules/transaction/utils'
+import { buildTransactionPayload } from 'dcl-dapps/dist/modules/transaction/utils'
 import { ErrorCode } from 'decentraland-transactions'
 
 import { NFT } from '../nft/types'

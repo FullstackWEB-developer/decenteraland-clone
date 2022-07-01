@@ -1,8 +1,8 @@
 import React from 'react'
-import { Icon } from 'decentraland-ui'
+import { Icon } from 'dcl-ui'
 import { Props } from './Expiration.types'
 import { formatDistanceToNow } from '../../../lib/date'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import styles from './Expiration.module.css'
 
 const Expiration = ({ order }: Props) => {

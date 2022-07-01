@@ -1,14 +1,14 @@
 import React, { useState, useCallback } from 'react'
-import { Header, Form, Field, Button } from 'decentraland-ui'
+import { Header, Form, Field, Button } from 'dcl-ui'
 import { ContractName } from 'decentraland-transactions'
-import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
-import { toFixedMANAValue } from 'decentraland-dapps/dist/lib/mana'
+import { t, T } from 'dcl-dapps/dist/modules/translation/utils'
+import { toFixedMANAValue } from 'dcl-dapps/dist/lib/mana'
 import {
   Authorization,
   AuthorizationType
-} from 'decentraland-dapps/dist/modules/authorization/types'
-import { hasAuthorization } from 'decentraland-dapps/dist/modules/authorization/utils'
-import { ChainButton } from 'decentraland-dapps/dist/containers'
+} from 'dcl-dapps/dist/modules/authorization/types'
+import { hasAuthorization } from 'dcl-dapps/dist/modules/authorization/utils'
+import { ChainButton } from 'dcl-dapps/dist/containers'
 import { getAssetName, isOwnedBy } from '../../../modules/asset/utils'
 import { parseMANANumber } from '../../../lib/mana'
 import { AssetAction } from '../../AssetAction'

@@ -2,7 +2,7 @@ import { call, put, select, takeEvery } from 'redux-saga/effects'
 import { LocationChangeAction, LOCATION_CHANGE } from 'connected-react-router'
 import { Entity } from '@dcl/schemas'
 import { AuthIdentity } from '@dcl/crypto'
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { CatalystClient } from 'dcl-catalyst-client'
 import { getIdentity } from '../identity/utils'
 import {

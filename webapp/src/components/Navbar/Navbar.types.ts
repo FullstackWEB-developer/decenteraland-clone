@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux'
 import { CallHistoryMethodAction } from 'connected-react-router'
-import { NavbarProps } from 'decentraland-ui'
+import { NavbarProps } from 'dcl-ui'
 
 export type Props = Partial<NavbarProps> & {
   pathname: string

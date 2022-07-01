@@ -1,5 +1,5 @@
 import { AxiosRequestConfig } from 'axios'
-import { BaseAPI } from 'decentraland-dapps/dist/lib/api'
+import { BaseAPI } from 'dcl-dapps/dist/lib/api'
 import { SortDirection } from '../../routing/types'
 import { capitalize } from '../../../lib/text'
 import { NFTsFetchParams, NFTSortBy } from '../../nft/types'

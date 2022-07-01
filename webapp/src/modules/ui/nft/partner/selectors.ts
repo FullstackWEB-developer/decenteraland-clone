@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect'
-import { LoadingState } from 'decentraland-dapps/dist/modules/loading/reducer'
+import { LoadingState } from 'dcl-dapps/dist/modules/loading/reducer'
 
 import { NFTState } from '../../../nft/reducer'
 import { FETCH_NFTS_REQUEST } from '../../../nft/actions'

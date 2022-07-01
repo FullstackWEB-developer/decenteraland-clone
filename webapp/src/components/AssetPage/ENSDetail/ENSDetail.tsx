@@ -1,6 +1,6 @@
 import React from 'react'
-import { Badge } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Badge } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { Network } from '../Network'
 import { Props } from './ENSDetail.types'
 import { Owner } from '../Owner'

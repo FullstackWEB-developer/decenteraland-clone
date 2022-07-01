@@ -1,4 +1,4 @@
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { Props } from './ENSTags.types'
 import './ENSTags.css'
 

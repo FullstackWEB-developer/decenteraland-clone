@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react'
 import { BodyShape, WearableGender } from '@dcl/schemas'
 import classNames from 'classnames'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { isGender, isUnisex as getIsUnisex } from '../../modules/nft/utils'
 import { locations } from '../../modules/routing/locations'
 import IconBadge from '../AssetPage/IconBadge'

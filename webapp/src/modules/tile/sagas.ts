@@ -1,5 +1,5 @@
 import { takeEvery, call, put } from 'redux-saga/effects'
-import { Atlas, AtlasTile } from 'decentraland-ui'
+import { Atlas, AtlasTile } from 'dcl-ui'
 import { ATLAS_SERVER_URL } from '../../modules/vendor/decentraland'
 import {
   FETCH_TILES_REQUEST,
@@ -10,7 +10,7 @@ import {
 import {
   ConnectWalletSuccessAction,
   CONNECT_WALLET_SUCCESS
-} from 'decentraland-dapps/dist/modules/wallet/actions'
+} from 'dcl-dapps/dist/modules/wallet/actions'
 import { fetchNFTsRequest } from '../nft/actions'
 import { VendorName } from '../vendor'
 import { View } from '../ui/types'

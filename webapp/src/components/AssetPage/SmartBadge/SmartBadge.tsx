@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { SmartIcon } from 'decentraland-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
+import { SmartIcon } from 'dcl-ui'
 import { Section } from '../../../modules/vendor/decentraland'
 import { locations } from '../../../modules/routing/locations'
 import IconBadge from '../IconBadge'

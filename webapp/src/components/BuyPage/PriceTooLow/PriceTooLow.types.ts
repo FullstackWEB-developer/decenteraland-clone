@@ -3,7 +3,7 @@ import { ChainId, Network } from '@dcl/schemas'
 import {
   switchNetworkRequest,
   SwitchNetworkRequestAction
-} from 'decentraland-dapps/dist/modules/wallet/actions'
+} from 'dcl-dapps/dist/modules/wallet/actions'
 
 export type Props = {
   chainId: ChainId

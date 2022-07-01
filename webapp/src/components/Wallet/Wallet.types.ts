@@ -1,7 +1,7 @@
 import React from 'react'
 import { Dispatch } from 'redux'
 import { CallHistoryMethodAction } from 'connected-react-router'
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
+import { Wallet } from 'dcl-dapps/dist/modules/wallet/types'
 
 export type Props = {
   wallet: Wallet | null

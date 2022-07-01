@@ -1,6 +1,6 @@
 import { action } from 'typesafe-actions'
 import { Bid, ChainId } from '@dcl/schemas'
-import { buildTransactionPayload } from 'decentraland-dapps/dist/modules/transaction/utils'
+import { buildTransactionPayload } from 'dcl-dapps/dist/modules/transaction/utils'
 import { NFT } from '../nft/types'
 import { formatWeiMANA } from '../../lib/mana'
 

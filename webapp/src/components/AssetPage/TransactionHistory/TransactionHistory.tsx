@@ -9,9 +9,9 @@ import {
   Pagination,
   Loader,
   Row
-} from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { Profile } from 'decentraland-dapps/dist/containers'
+} from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
+import { Profile } from 'dcl-dapps/dist/containers'
 import dateFnsFormat from 'date-fns/format'
 
 import { Mana } from '../../Mana'

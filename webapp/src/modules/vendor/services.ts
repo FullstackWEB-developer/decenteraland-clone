@@ -5,7 +5,7 @@ import {
   NFTCategory,
   Order
 } from '@dcl/schemas'
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
+import { Wallet } from 'dcl-dapps/dist/modules/wallet/types'
 import { NFT, NFTsFetchParams, NFTsCountParams } from '../nft/types'
 import { Account } from '../account/types'
 import { NFTsFetchFilters } from './nft/types'

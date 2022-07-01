@@ -2,7 +2,7 @@ import { takeEvery, put, select } from 'redux-saga/effects'
 import {
   CONNECT_WALLET_SUCCESS,
   ConnectWalletSuccessAction
-} from 'decentraland-dapps/dist/modules/wallet/actions'
+} from 'dcl-dapps/dist/modules/wallet/actions'
 import { push, getLocation } from 'connected-react-router'
 import { locations } from '../routing/locations'
 

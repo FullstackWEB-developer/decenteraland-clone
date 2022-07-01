@@ -1,4 +1,4 @@
-import { BaseAPI } from 'decentraland-dapps/dist/lib/api'
+import { BaseAPI } from 'dcl-dapps/dist/lib/api'
 import { Item } from '@dcl/schemas'
 import { NFT_SERVER_URL } from '../nft'
 import { ItemFilters, ItemResponse } from './types'

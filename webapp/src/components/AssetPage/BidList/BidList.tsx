@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react'
-import { Header } from 'decentraland-ui'
+import { Header } from 'dcl-ui'
 import { Props } from './BidList.types'
 import { Bid } from '../../Bid'
 import './BidList.css'

@@ -2,7 +2,7 @@ import { NFTCategory } from '@dcl/schemas'
 import {
   getSigner,
   getConnectedProvider
-} from 'decentraland-dapps/dist/lib/eth'
+} from 'dcl-dapps/dist/lib/eth'
 import { EstateRegistry__factory } from '../../../contracts'
 import { getContract } from '../../contract/utils'
 import { NFT } from '../types'

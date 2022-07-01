@@ -3,7 +3,7 @@ import { ethers } from 'ethers'
 import {
   EventName,
   GetPayload
-} from 'decentraland-dapps/dist/modules/analytics/types'
+} from 'dcl-dapps/dist/modules/analytics/types'
 import {
   FETCH_TRANSACTION_FAILURE,
   FIX_REVERTED_TRANSACTION,
@@ -11,15 +11,15 @@ import {
   FetchTransactionFailureAction,
   FixRevertedTransactionAction,
   ReplaceTransactionSuccessAction
-} from 'decentraland-dapps/dist/modules/transaction/actions'
+} from 'dcl-dapps/dist/modules/transaction/actions'
 import {
   GrantTokenSuccessAction,
   GRANT_TOKEN_SUCCESS,
   RevokeTokenSuccessAction,
   REVOKE_TOKEN_SUCCESS
-} from 'decentraland-dapps/dist/modules/authorization/actions'
-import { TransactionStatus } from 'decentraland-dapps/dist/modules/transaction/types'
-import { add } from 'decentraland-dapps/dist/modules/analytics/utils'
+} from 'dcl-dapps/dist/modules/authorization/actions'
+import { TransactionStatus } from 'dcl-dapps/dist/modules/transaction/types'
+import { add } from 'dcl-dapps/dist/modules/analytics/utils'
 import { capitalize } from '../../lib/text'
 import {
   EXECUTE_ORDER_SUCCESS,

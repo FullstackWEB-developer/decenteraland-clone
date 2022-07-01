@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react'
-import { Card, Icon } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Card, Icon } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { Props } from './PriceChangeNotice.types'
 import { isAccountView } from '../../../modules/ui/utils'
 import './PriceChangeNotice.css'

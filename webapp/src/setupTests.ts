@@ -8,7 +8,7 @@ import path from 'path'
 import { config } from 'dotenv'
 import * as locales from './modules/translation/locales'
 import flatten from 'flat'
-import { setCurrentLocale } from 'decentraland-dapps/dist/modules/translation/utils'
+import { setCurrentLocale } from 'dcl-dapps/dist/modules/translation/utils'
 
 config({ path: path.resolve(process.cwd(), '.env.example') })
 global.TextEncoder = TextEncoder

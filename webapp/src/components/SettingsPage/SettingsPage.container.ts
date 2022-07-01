@@ -4,8 +4,8 @@ import {
   getData as getAuthorizations,
   getLoading,
   getError
-} from 'decentraland-dapps/dist/modules/authorization/selectors'
-import { FETCH_AUTHORIZATIONS_REQUEST } from 'decentraland-dapps/dist/modules/authorization/actions'
+} from 'dcl-dapps/dist/modules/authorization/selectors'
+import { FETCH_AUTHORIZATIONS_REQUEST } from 'dcl-dapps/dist/modules/authorization/actions'
 
 import { RootState } from '../../modules/reducer'
 import {
@@ -13,7 +13,7 @@ import {
   isUserDeniedSignatureError,
   isContractAccountError
 } from '../../modules/transaction/utils'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
 import { getWallet, isConnecting } from '../../modules/wallet/selectors'
 import {
   MapStateProps,

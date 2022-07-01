@@ -1,6 +1,6 @@
-import { Button, Card } from 'decentraland-ui'
+import { Button, Card } from 'dcl-ui'
 import React from 'react'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { T, t } from 'dcl-dapps/dist/modules/translation/utils'
 import { getMinSaleValueInWei } from '../utils'
 import { Price } from '../Price'
 import { Props } from './PriceTooLow.types'

@@ -1,6 +1,6 @@
 import { ethers } from 'ethers'
-import { Provider } from 'decentraland-dapps/dist/modules/wallet/types'
-import { getConnectedProvider } from 'decentraland-dapps/dist/lib/eth'
+import { Provider } from 'dcl-dapps/dist/modules/wallet/types'
+import { getConnectedProvider } from 'dcl-dapps/dist/lib/eth'
 import { config } from '../../config'
 
 export const TRANSACTIONS_API_URL = config.get('TRANSACTIONS_API_URL')

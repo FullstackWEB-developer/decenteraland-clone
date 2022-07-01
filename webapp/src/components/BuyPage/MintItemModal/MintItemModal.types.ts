@@ -1,7 +1,7 @@
 import { Dispatch } from 'redux'
 import { Item } from '@dcl/schemas'
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
-import { Authorization } from 'decentraland-dapps/dist/modules/authorization/types'
+import { Wallet } from 'dcl-dapps/dist/modules/wallet/types'
+import { Authorization } from 'dcl-dapps/dist/modules/authorization/types'
 import {
   buyItemRequest,
   BuyItemRequestAction

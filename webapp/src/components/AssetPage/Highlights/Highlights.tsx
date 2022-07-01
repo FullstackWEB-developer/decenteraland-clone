@@ -1,7 +1,7 @@
 import React from 'react'
 import classnames from 'classnames'
-import { Header } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Header } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 
 import { Row } from '../../Layout/Row'
 import { Props } from './Highlights.types'

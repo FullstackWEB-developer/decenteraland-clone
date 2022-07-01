@@ -1,7 +1,7 @@
 import React from 'react'
 import classNames from 'classnames'
-import { Badge } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Badge } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 
 import { buildExplorerUrl } from '../../../modules/nft/parcel/utils'
 import { Props } from './JumpIn.types'

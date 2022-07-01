@@ -1,6 +1,6 @@
 import React from 'react'
-import { Header, Stats } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Header, Stats } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { NFTCategory, Rarity } from '@dcl/schemas'
 import { Network } from '../Network'
 import { Description } from '../Description'

@@ -2,7 +2,7 @@ import { connect } from 'react-redux'
 import {
   getData as getAuthorizations,
   getLoading
-} from 'decentraland-dapps/dist/modules/authorization/selectors'
+} from 'dcl-dapps/dist/modules/authorization/selectors'
 import {
   GrantTokenRequestAction,
   GRANT_TOKEN_REQUEST,
@@ -10,8 +10,8 @@ import {
   REVOKE_TOKEN_REQUEST,
   grantTokenRequest,
   revokeTokenRequest
-} from 'decentraland-dapps/dist/modules/authorization/actions'
-import { areEqual } from 'decentraland-dapps/dist/modules/authorization/utils'
+} from 'dcl-dapps/dist/modules/authorization/actions'
+import { areEqual } from 'dcl-dapps/dist/modules/authorization/utils'
 import { hasTransactionPending } from '../../../modules/transaction/utils'
 import { RootState } from '../../../modules/reducer'
 import { getPendingAuthorizationTransactions } from '../../../modules/transaction/selectors'

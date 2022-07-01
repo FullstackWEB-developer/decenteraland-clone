@@ -5,7 +5,7 @@ import {
   CONNECT_WALLET_SUCCESS,
   CONNECT_WALLET_FAILURE,
   ConnectWalletSuccessAction
-} from 'decentraland-dapps/dist/modules/wallet/actions'
+} from 'dcl-dapps/dist/modules/wallet/actions'
 import { getAddress } from '../wallet/selectors'
 import { config } from '../../config'
 import { getCurrentIdentity } from './selectors'

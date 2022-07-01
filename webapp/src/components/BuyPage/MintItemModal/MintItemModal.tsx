@@ -1,14 +1,14 @@
 import React, { useState, useCallback, useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import { Header, Button } from 'decentraland-ui'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Header, Button } from 'dcl-ui'
+import { T, t } from 'dcl-dapps/dist/modules/translation/utils'
 import {
   Authorization,
   AuthorizationType
-} from 'decentraland-dapps/dist/modules/authorization/types'
+} from 'dcl-dapps/dist/modules/authorization/types'
 import { ContractName } from 'decentraland-transactions'
-import { hasAuthorization } from 'decentraland-dapps/dist/modules/authorization/utils'
-import { ChainButton } from 'decentraland-dapps/dist/containers'
+import { hasAuthorization } from 'dcl-dapps/dist/modules/authorization/utils'
+import { ChainButton } from 'dcl-dapps/dist/containers'
 import { locations } from '../../../modules/routing/locations'
 import { AuthorizationModal } from '../../AuthorizationModal'
 import { getContract } from '../../../modules/contract/utils'

@@ -1,11 +1,11 @@
 import { Bid, ChainId, Network } from '@dcl/schemas'
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
-import { sendTransaction } from 'decentraland-dapps/dist/modules/wallet/utils'
+import { Wallet } from 'dcl-dapps/dist/modules/wallet/types'
+import { sendTransaction } from 'dcl-dapps/dist/modules/wallet/utils'
 import { ContractName, getContract } from 'decentraland-transactions'
 import { NFT } from '../../nft/types'
 import { BidService } from './BidService'
 
-jest.mock('decentraland-dapps/dist/modules/wallet/utils')
+jest.mock('dcl-dapps/dist/modules/wallet/utils')
 
 const mockSendTransaction = sendTransaction as jest.MockedFunction<
   typeof sendTransaction

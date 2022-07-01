@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Page, Loader } from 'decentraland-ui'
+import { Page, Loader } from 'dcl-ui'
 import { NFTCategory } from '@dcl/schemas'
 
 import { locations } from '../../modules/routing/locations'

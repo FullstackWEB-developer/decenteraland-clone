@@ -1,5 +1,5 @@
 import React from 'react'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { getDistanceText } from '../../../modules/proximity/utils'
 import { Highlights } from '../Highlights'
 import { Props } from './ProximityHighlights.types'

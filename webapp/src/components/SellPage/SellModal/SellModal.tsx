@@ -3,15 +3,15 @@ import { ethers } from 'ethers'
 import addDays from 'date-fns/addDays'
 import formatDate from 'date-fns/format'
 import { Network, NFTCategory } from '@dcl/schemas'
-import { toFixedMANAValue } from 'decentraland-dapps/dist/lib/mana'
+import { toFixedMANAValue } from 'dcl-dapps/dist/lib/mana'
 import {
   Authorization,
   AuthorizationType
-} from 'decentraland-dapps/dist/modules/authorization/types'
-import { hasAuthorization } from 'decentraland-dapps/dist/modules/authorization/utils'
-import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
-import { ChainButton } from 'decentraland-dapps/dist/containers'
-import { Header, Form, Field, Button } from 'decentraland-ui'
+} from 'dcl-dapps/dist/modules/authorization/types'
+import { hasAuthorization } from 'dcl-dapps/dist/modules/authorization/utils'
+import { t, T } from 'dcl-dapps/dist/modules/translation/utils'
+import { ChainButton } from 'dcl-dapps/dist/containers'
+import { Header, Form, Field, Button } from 'dcl-ui'
 import { ContractName } from 'decentraland-transactions'
 import { parseMANANumber } from '../../../lib/mana'
 import {

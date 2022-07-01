@@ -1,4 +1,4 @@
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { getId } from '../nft/parcel/utils'
 import { NFT } from '../nft/types'
 import { Proximity } from './types'

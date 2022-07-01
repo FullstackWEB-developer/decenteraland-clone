@@ -1,6 +1,6 @@
 import { Network, ChainId } from '@dcl/schemas'
-import * as walletUtils from 'decentraland-dapps/dist/modules/wallet/utils'
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
+import * as walletUtils from 'dcl-dapps/dist/modules/wallet/utils'
+import { Wallet } from 'dcl-dapps/dist/modules/wallet/types'
 import { NFT, NFTsCountParams, NFTsFetchParams } from '../../nft/types'
 import { VendorName } from '../types'
 import { NFTService } from './NFTService'
@@ -14,7 +14,7 @@ import {
 } from 'decentraland-transactions'
 import { getERC721ContractData } from './utils'
 
-jest.mock('decentraland-dapps/dist/modules/wallet/utils')
+jest.mock('dcl-dapps/dist/modules/wallet/utils')
 jest.mock('./nft/api')
 
 const aTxHash = 'txHash'

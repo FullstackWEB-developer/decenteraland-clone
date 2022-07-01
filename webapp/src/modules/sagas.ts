@@ -1,8 +1,8 @@
 import { all } from 'redux-saga/effects'
-import { authorizationSaga } from 'decentraland-dapps/dist/modules/authorization/sagas'
-import { createAnalyticsSaga } from 'decentraland-dapps/dist/modules/analytics/sagas'
-import { createProfileSaga } from 'decentraland-dapps/dist/modules/profile/sagas'
-import { transactionSaga } from 'decentraland-dapps/dist/modules/transaction/sagas'
+import { authorizationSaga } from 'dcl-dapps/dist/modules/authorization/sagas'
+import { createAnalyticsSaga } from 'dcl-dapps/dist/modules/analytics/sagas'
+import { createProfileSaga } from 'dcl-dapps/dist/modules/profile/sagas'
+import { transactionSaga } from 'dcl-dapps/dist/modules/transaction/sagas'
 import { CatalystClient } from 'dcl-catalyst-client'
 
 import { bidSaga } from './bid/sagas'

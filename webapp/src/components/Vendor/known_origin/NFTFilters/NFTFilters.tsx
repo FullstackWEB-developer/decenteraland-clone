@@ -6,8 +6,8 @@ import {
   DropdownProps,
   Responsive,
   Modal
-} from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+} from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 
 import { Section } from '../../../../modules/vendor/known_origin/routing/types'
 import { SortBy } from '../../../../modules/routing/types'

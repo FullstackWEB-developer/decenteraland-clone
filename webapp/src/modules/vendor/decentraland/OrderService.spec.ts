@@ -5,12 +5,12 @@ import {
   ContractName,
   getContract
 } from 'decentraland-transactions'
-import * as walletUtils from 'decentraland-dapps/dist/modules/wallet/utils'
+import * as walletUtils from 'dcl-dapps/dist/modules/wallet/utils'
 import * as orderAPI from './order/api'
 import { NFT } from '../../nft/types'
 import { OrderService } from './OrderService'
 
-jest.mock('decentraland-dapps/dist/modules/wallet/utils')
+jest.mock('dcl-dapps/dist/modules/wallet/utils')
 jest.mock('./order/api')
 
 const aTxHash = 'txHash'

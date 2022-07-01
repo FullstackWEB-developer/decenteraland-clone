@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { NFTCategory } from '@dcl/schemas'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { locations } from '../../../modules/routing/locations'
 import { AssetImage } from '../../AssetImage'
 import { Props } from './AssetCell.types'

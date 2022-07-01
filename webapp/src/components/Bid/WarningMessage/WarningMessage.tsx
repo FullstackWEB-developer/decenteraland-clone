@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 
 import { useFingerprint } from '../../../modules/nft/hooks'
 import {

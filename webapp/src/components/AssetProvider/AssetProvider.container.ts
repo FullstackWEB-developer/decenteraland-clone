@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
 import { RootState } from '../../modules/reducer'
 import { fetchNFTRequest, FETCH_NFT_REQUEST } from '../../modules/nft/actions'
 import {

@@ -1,5 +1,5 @@
 import { ethers } from 'ethers'
-import { MAXIMUM_FRACTION_DIGITS } from 'decentraland-dapps/dist/lib/mana'
+import { MAXIMUM_FRACTION_DIGITS } from 'dcl-dapps/dist/lib/mana'
 
 /**
  * Format wei to a supported unit ('ether' by default) and localizes it with the desired fraction digits (2 by default)

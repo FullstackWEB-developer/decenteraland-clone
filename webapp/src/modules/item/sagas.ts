@@ -1,7 +1,7 @@
 import { Item } from '@dcl/schemas'
 import { put, takeEvery } from '@redux-saga/core/effects'
 import { ContractName, getContract } from 'decentraland-transactions'
-import { sendTransaction } from 'decentraland-dapps/dist/modules/wallet/utils'
+import { sendTransaction } from 'dcl-dapps/dist/modules/wallet/utils'
 import { call, select } from 'redux-saga/effects'
 import { itemAPI } from '../vendor/decentraland/item/api'
 import { getWallet } from '../wallet/selectors'

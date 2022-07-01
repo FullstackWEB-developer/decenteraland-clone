@@ -16,8 +16,8 @@ import {
   Dropdown,
   Mobile,
   NotMobile
-} from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+} from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { Navbar } from '../Navbar'
 import { Footer } from '../Footer'
 import { Navigation } from '../Navigation'

@@ -1,5 +1,5 @@
 import { ChainId, Item } from '@dcl/schemas'
-import { loadingReducer } from 'decentraland-dapps/dist/modules/loading/reducer'
+import { loadingReducer } from 'dcl-dapps/dist/modules/loading/reducer'
 import { View } from '../ui/types'
 import {
   buyItemFailure,

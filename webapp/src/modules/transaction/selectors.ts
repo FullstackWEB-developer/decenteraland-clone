@@ -1,15 +1,15 @@
-import { getData } from 'decentraland-dapps/dist/modules/transaction/selectors'
-import { Transaction } from 'decentraland-dapps/dist/modules/transaction/types'
+import { getData } from 'dcl-dapps/dist/modules/transaction/selectors'
+import { Transaction } from 'dcl-dapps/dist/modules/transaction/types'
 import { RootState } from '../reducer'
 import { createSelector } from 'reselect'
 import { getAddress } from '../wallet/selectors'
 import {
   GRANT_TOKEN_SUCCESS,
   REVOKE_TOKEN_SUCCESS
-} from 'decentraland-dapps/dist/modules/authorization/actions'
-import { isPending } from 'decentraland-dapps/dist/modules/transaction/utils'
+} from 'dcl-dapps/dist/modules/authorization/actions'
+import { isPending } from 'dcl-dapps/dist/modules/transaction/utils'
 
-export * from 'decentraland-dapps/dist/modules/transaction/selectors'
+export * from 'dcl-dapps/dist/modules/transaction/selectors'
 
 export const getTransactionsByType = (
   state: RootState,

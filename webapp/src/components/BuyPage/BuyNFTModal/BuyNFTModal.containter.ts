@@ -2,9 +2,9 @@ import { connect } from 'react-redux'
 import {
   getData as getAuthorizations,
   getLoading as getLoadingAuthorizations
-} from 'decentraland-dapps/dist/modules/authorization/selectors'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
-import { FETCH_AUTHORIZATIONS_REQUEST } from 'decentraland-dapps/dist/modules/authorization/actions'
+} from 'dcl-dapps/dist/modules/authorization/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
+import { FETCH_AUTHORIZATIONS_REQUEST } from 'dcl-dapps/dist/modules/authorization/actions'
 import { RootState } from '../../../modules/reducer'
 import {
   executeOrderRequest,

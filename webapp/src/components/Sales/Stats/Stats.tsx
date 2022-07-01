@@ -1,6 +1,6 @@
 import React, { ReactNode, useEffect } from 'react'
-import { Icon, Loader } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Icon, Loader } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { formatWeiMANA } from '../../../lib/mana'
 import { Props } from './Stats.types'
 import { Mana } from '../../Mana'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Page, Section, Column, Back, Narrow } from 'decentraland-ui'
+import { Page, Section, Column, Back, Narrow } from 'dcl-ui'
 import { Asset, AssetType } from '../../modules/asset/types'
 import { AssetProviderPage } from '../AssetProviderPage'
 import { ItemDetail } from './ItemDetail'

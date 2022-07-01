@@ -1,6 +1,6 @@
 import React from 'react'
-import { Stats } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Stats } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 
 import { Props } from './Network.types'
 

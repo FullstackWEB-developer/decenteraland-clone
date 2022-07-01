@@ -1,4 +1,4 @@
-import { Header } from 'decentraland-ui'
+import { Header } from 'dcl-ui'
 
 import { Props } from './ArrayFilter.types'
 import './ArrayFilter.css'

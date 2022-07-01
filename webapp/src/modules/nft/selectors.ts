@@ -1,6 +1,6 @@
 import { createSelector } from 'reselect'
 import { createMatchSelector } from 'connected-react-router'
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { locations } from '../routing/locations'
 import { RootState } from '../reducer'
 import { NFTState } from './reducer'

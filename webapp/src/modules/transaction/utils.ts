@@ -1,8 +1,8 @@
 import {
   GrantTokenRequestAction,
   RevokeTokenRequestAction
-} from 'decentraland-dapps/dist/modules/authorization/actions'
-import { Transaction } from 'decentraland-dapps/dist/modules/transaction/types'
+} from 'dcl-dapps/dist/modules/authorization/actions'
+import { Transaction } from 'dcl-dapps/dist/modules/transaction/types'
 
 export function hasTransactionPending(
   transactions: Transaction[],

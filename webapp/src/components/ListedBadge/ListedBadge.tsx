@@ -1,5 +1,5 @@
 import classNames from 'classnames'
-import { Badge, Color, Icon } from 'decentraland-ui'
+import { Badge, Color, Icon } from 'dcl-ui'
 import styles from './ListedBadge.module.css'
 
 type Props = {

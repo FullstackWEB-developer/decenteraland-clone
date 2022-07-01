@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
 import { formatDistanceToNow } from 'date-fns'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import {
   Header,
   Loader,
@@ -8,8 +8,8 @@ import {
   NotMobile,
   Pagination,
   Table
-} from 'decentraland-ui'
-import { Profile } from 'decentraland-dapps/dist/containers'
+} from 'dcl-ui'
+import { Profile } from 'dcl-dapps/dist/containers'
 import { Link } from 'react-router-dom'
 import { SALES_PER_PAGE } from '../../../modules/routing/utils'
 import AssetCell from '../../OnSaleList/AssetCell'

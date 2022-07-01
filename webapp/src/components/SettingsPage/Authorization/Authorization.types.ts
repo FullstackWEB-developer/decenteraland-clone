@@ -3,9 +3,9 @@ import {
   GrantTokenRequestAction,
   revokeTokenRequest,
   RevokeTokenRequestAction
-} from 'decentraland-dapps/dist/modules/authorization/actions'
-import { Authorization } from 'decentraland-dapps/dist/modules/authorization/types'
-import { Transaction } from 'decentraland-dapps/dist/modules/transaction/types'
+} from 'dcl-dapps/dist/modules/authorization/actions'
+import { Authorization } from 'dcl-dapps/dist/modules/authorization/types'
+import { Transaction } from 'dcl-dapps/dist/modules/transaction/types'
 import { Dispatch } from 'redux'
 
 export type Props = {

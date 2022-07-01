@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import { push, getLocation } from 'connected-react-router'
-import { isPending } from 'decentraland-dapps/dist/modules/transaction/utils'
+import { isPending } from 'dcl-dapps/dist/modules/transaction/utils'
 
 import { RootState } from '../../modules/reducer'
 import { getTransactions } from '../../modules/transaction/selectors'

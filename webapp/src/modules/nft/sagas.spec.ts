@@ -3,7 +3,7 @@ import { call, select } from 'redux-saga/effects'
 import { throwError } from 'redux-saga-test-plan/providers'
 import * as matchers from 'redux-saga-test-plan/matchers'
 import { NFTCategory, Order } from '@dcl/schemas'
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
+import { Wallet } from 'dcl-dapps/dist/modules/wallet/types'
 import { VendorFactory, VendorName } from '../vendor'
 import { getWallet } from '../wallet/selectors'
 import {

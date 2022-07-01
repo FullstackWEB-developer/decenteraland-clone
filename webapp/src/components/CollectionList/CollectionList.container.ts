@@ -1,4 +1,4 @@
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
 import { connect } from 'react-redux'
 import { FETCH_COLLECTIONS_REQUEST } from '../../modules/collection/actions'
 import {

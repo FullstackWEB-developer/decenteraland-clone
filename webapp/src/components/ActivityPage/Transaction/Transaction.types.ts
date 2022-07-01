@@ -1,4 +1,4 @@
-import { Transaction } from 'decentraland-dapps/dist/modules/transaction/types'
+import { Transaction } from 'dcl-dapps/dist/modules/transaction/types'
 
 export type Props = {
   tx: Transaction

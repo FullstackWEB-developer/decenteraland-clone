@@ -2,7 +2,7 @@ import { expectSaga } from 'redux-saga-test-plan'
 import * as matchers from 'redux-saga-test-plan/matchers'
 import { ChainId, Item } from '@dcl/schemas'
 import { call, select } from 'redux-saga/effects'
-import { sendTransaction } from 'decentraland-dapps/dist/modules/wallet/utils'
+import { sendTransaction } from 'dcl-dapps/dist/modules/wallet/utils'
 import {
   buyItemRequest,
   buyItemFailure,

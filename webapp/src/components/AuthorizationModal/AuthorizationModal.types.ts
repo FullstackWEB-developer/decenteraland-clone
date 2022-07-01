@@ -1,5 +1,5 @@
 import { Dispatch } from 'redux'
-import { Authorization } from 'decentraland-dapps/dist/modules/authorization/types'
+import { Authorization } from 'dcl-dapps/dist/modules/authorization/types'
 
 export type Props = {
   open: boolean

@@ -8,7 +8,7 @@ import {
   getSellerBids,
   getArchivedBidIds
 } from '../../modules/ui/nft/bid/selectors'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
 import { getLoading } from '../../modules/bid/selectors'
 import {
   fetchBidsByAddressRequest,

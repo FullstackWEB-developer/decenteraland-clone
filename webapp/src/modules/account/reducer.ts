@@ -2,7 +2,7 @@ import { Network } from '@dcl/schemas'
 import {
   LoadingState,
   loadingReducer
-} from 'decentraland-dapps/dist/modules/loading/reducer'
+} from 'dcl-dapps/dist/modules/loading/reducer'
 import {
   FetchNFTsRequestAction,
   FetchNFTsSuccessAction,

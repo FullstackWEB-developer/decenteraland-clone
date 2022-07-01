@@ -1,6 +1,6 @@
 import React from 'react'
-import { Button, Icon, Modal } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Button, Icon, Modal } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { Props } from './ExternalLinkModal.types'
 import './ExternalLinkModal.css'
 

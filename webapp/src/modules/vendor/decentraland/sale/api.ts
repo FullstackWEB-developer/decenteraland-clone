@@ -1,5 +1,5 @@
 import { SaleFilters } from '@dcl/schemas'
-import { BaseAPI } from 'decentraland-dapps/dist/lib/api'
+import { BaseAPI } from 'dcl-dapps/dist/lib/api'
 import { NFT_SERVER_URL } from '../nft'
 import { SaleResponse } from './types'
 

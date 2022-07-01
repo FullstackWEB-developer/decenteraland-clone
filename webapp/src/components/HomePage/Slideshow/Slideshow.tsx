@@ -1,6 +1,6 @@
 import React from 'react'
-import { HeaderMenu, Header, Button, Loader } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { HeaderMenu, Header, Button, Loader } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { AssetCard } from '../../AssetCard'
 import { Props } from './Slideshow.types'
 import './Slideshow.css'

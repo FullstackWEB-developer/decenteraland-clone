@@ -1,6 +1,6 @@
 import React from 'react'
-import { Loader } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Loader } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { AssetProvider } from '../AssetProvider'
 import { Props } from './AssetProviderPage.types'
 import styles from './AssetProviderPage.module.css'

@@ -1,6 +1,6 @@
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
+import { Wallet } from 'dcl-dapps/dist/modules/wallet/types'
 import { Order } from '@dcl/schemas'
-import { Authorization } from 'decentraland-dapps/dist/modules/authorization/types'
+import { Authorization } from 'dcl-dapps/dist/modules/authorization/types'
 import { NFT } from '../../../modules/nft/types'
 import { createOrderRequest } from '../../../modules/order/actions'
 

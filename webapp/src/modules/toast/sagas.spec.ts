@@ -1,5 +1,5 @@
-import { showToast } from 'decentraland-dapps/dist/modules/toast/actions'
-import { getState } from 'decentraland-dapps/dist/modules/toast/selectors'
+import { showToast } from 'dcl-dapps/dist/modules/toast/actions'
+import { getState } from 'dcl-dapps/dist/modules/toast/selectors'
 import { expectSaga } from 'redux-saga-test-plan'
 import { select } from 'redux-saga/effects'
 import { updateStoreSuccess } from '../store/actions'

@@ -1,5 +1,5 @@
 import { Item, Sale, SaleType } from '@dcl/schemas'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
 import { connect } from 'react-redux'
 import { NFT } from '../../../modules/nft/types'
 import { RootState } from '../../../modules/reducer'

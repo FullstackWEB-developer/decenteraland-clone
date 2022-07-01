@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { TransactionLink, Profile } from 'decentraland-dapps/dist/containers'
+import { T, t } from 'dcl-dapps/dist/modules/translation/utils'
+import { TransactionLink, Profile } from 'dcl-dapps/dist/containers'
 import {
   GrantTokenSuccessAction,
   RevokeTokenSuccessAction,
   GRANT_TOKEN_SUCCESS,
   REVOKE_TOKEN_SUCCESS
-} from 'decentraland-dapps/dist/modules/authorization/actions'
+} from 'dcl-dapps/dist/modules/authorization/actions'
 
 import { getAssetName } from '../../../modules/asset/utils'
 import {

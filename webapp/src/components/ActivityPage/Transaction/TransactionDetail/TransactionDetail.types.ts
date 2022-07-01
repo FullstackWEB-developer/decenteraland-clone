@@ -1,5 +1,5 @@
 import React from 'react'
-import { Transaction } from 'decentraland-dapps/dist/modules/transaction/types'
+import { Transaction } from 'dcl-dapps/dist/modules/transaction/types'
 import { Asset } from '../../../../modules/asset/types'
 
 export type Props = {

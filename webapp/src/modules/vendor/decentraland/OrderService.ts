@@ -5,8 +5,8 @@ import {
   getContract,
   getContractName
 } from 'decentraland-transactions'
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
-import { sendTransaction } from 'decentraland-dapps/dist/modules/wallet/utils'
+import { Wallet } from 'dcl-dapps/dist/modules/wallet/types'
+import { sendTransaction } from 'dcl-dapps/dist/modules/wallet/utils'
 import { NFT } from '../../nft/types'
 import { orderAPI } from './order/api'
 import { VendorName } from '../types'

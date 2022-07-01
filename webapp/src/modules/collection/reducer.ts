@@ -2,7 +2,7 @@ import { Collection } from '@dcl/schemas'
 import {
   loadingReducer,
   LoadingState
-} from 'decentraland-dapps/dist/modules/loading/reducer'
+} from 'dcl-dapps/dist/modules/loading/reducer'
 import {
   FetchCollectionsFailureAction,
   FetchCollectionsRequestAction,

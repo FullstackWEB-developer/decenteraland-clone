@@ -1,5 +1,5 @@
 import { Switch, Route, Redirect } from 'react-router-dom'
-import Intercom from 'decentraland-dapps/dist/components/Intercom'
+import Intercom from 'dcl-dapps/dist/components/Intercom'
 
 import { AssetType } from '../../modules/asset/types'
 import { locations } from '../../modules/routing/locations'

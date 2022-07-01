@@ -1,5 +1,5 @@
 import React from 'react'
-import { UserMenu as BaseUserMenu } from 'decentraland-dapps/dist/containers'
+import { UserMenu as BaseUserMenu } from 'dcl-dapps/dist/containers'
 import { IntroPopup } from '../IntroPopup'
 import { Props } from './UserMenu.types'
 

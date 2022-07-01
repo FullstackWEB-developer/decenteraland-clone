@@ -5,7 +5,7 @@ import {
   AtlasTile,
   Color,
   Layer
-} from 'decentraland-ui'
+} from 'dcl-ui'
 import { locations } from '../../modules/routing/locations'
 import { nftAPI } from '../../modules/vendor/decentraland/nft/api'
 import { Props, Tile } from './Atlas.types'

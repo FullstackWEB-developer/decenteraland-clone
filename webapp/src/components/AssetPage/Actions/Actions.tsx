@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Modal, Button } from 'decentraland-ui'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Modal, Button } from 'dcl-ui'
+import { T, t } from 'dcl-dapps/dist/modules/translation/utils'
 
 import { isOwnedBy } from '../../../modules/asset/utils'
 import { locations } from '../../../modules/routing/locations'

@@ -1,4 +1,4 @@
-import { getData as getProfiles } from 'decentraland-dapps/dist/modules/profile/selectors'
+import { getData as getProfiles } from 'dcl-dapps/dist/modules/profile/selectors'
 import { Avatar } from '@dcl/schemas'
 import { connect } from 'react-redux'
 import { RootState } from '../../modules/reducer'

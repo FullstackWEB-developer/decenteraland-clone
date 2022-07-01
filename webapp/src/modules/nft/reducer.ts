@@ -1,7 +1,7 @@
 import {
   LoadingState,
   loadingReducer
-} from 'decentraland-dapps/dist/modules/loading/reducer'
+} from 'dcl-dapps/dist/modules/loading/reducer'
 
 import { NFT } from './types'
 import {

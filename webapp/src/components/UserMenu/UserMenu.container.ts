@@ -1,10 +1,10 @@
 import { connect } from 'react-redux'
 import { getLocation, push } from 'connected-react-router'
-import { isPending } from 'decentraland-dapps/dist/modules/transaction/utils'
+import { isPending } from 'dcl-dapps/dist/modules/transaction/utils'
 import {
   isConnected,
   isConnecting
-} from 'decentraland-dapps/dist/modules/wallet/selectors'
+} from 'dcl-dapps/dist/modules/wallet/selectors'
 import { getTransactions } from '../../modules/transaction/selectors'
 import { locations } from '../../modules/routing/locations'
 import { RootState } from '../../modules/reducer'

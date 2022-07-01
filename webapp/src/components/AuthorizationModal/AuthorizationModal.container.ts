@@ -2,10 +2,10 @@ import { connect } from 'react-redux'
 import {
   GRANT_TOKEN_REQUEST,
   REVOKE_TOKEN_REQUEST
-} from 'decentraland-dapps/dist/modules/authorization/actions'
-import { getData as getAuthorizations } from 'decentraland-dapps/dist/modules/authorization/selectors'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
-import { getLoading } from 'decentraland-dapps/dist/modules/authorization/selectors'
+} from 'dcl-dapps/dist/modules/authorization/actions'
+import { getData as getAuthorizations } from 'dcl-dapps/dist/modules/authorization/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
+import { getLoading } from 'dcl-dapps/dist/modules/authorization/selectors'
 import { RootState } from '../../modules/reducer'
 import {
   MapStateProps,

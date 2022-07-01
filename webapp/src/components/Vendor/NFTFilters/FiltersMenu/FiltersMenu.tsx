@@ -1,7 +1,7 @@
 import React, { useCallback, useMemo } from 'react'
 import classNames from 'classnames'
 import { Network, NFTCategory, Rarity } from '@dcl/schemas'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import {
   Row,
   Column,
@@ -11,7 +11,7 @@ import {
   NotMobile,
   Header,
   Radio
-} from 'decentraland-ui'
+} from 'dcl-ui'
 import { WearableGender } from '../../../../modules/nft/wearable/types'
 import { contracts } from '../../../../modules/contract/utils'
 import { ArrayFilter } from '../ArrayFilter'
