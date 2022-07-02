@@ -55,7 +55,7 @@
     "dissolved": "这个庄园已经解散了"
   },
   "vendors": {
-    "decentraland": "Decentraland",
+    "decentraland": "Birdezkingdom",
     "super_rare": "SuperRare",
     "makers_place": "MakersPlace",
     "known_origin": "KnownOrigin"
@@ -94,7 +94,7 @@
     "wearables_skin": "皮肤",
     "emotes": "表情",
     "ens": "名称",
-    "decentraland": "Decentraland",
+    "decentraland": "Birdezkingdom",
     "super_rare": "SuperRare",
     "known_origin": "KnownOrigin",
     "makers_place": "MakersPlace",
@@ -124,7 +124,7 @@
     "size": "大小"
   },
   "home_page": {
-    "title": "Decentraland Marketplace",
+    "title": "Birdezkingdom Marketplace",
     "subtitle": "欢迎来到虚拟世界的一站式商店，获取最好的数字资产。",
     "get_started": "开始浏览",
     "home_new_items": "最新商品",

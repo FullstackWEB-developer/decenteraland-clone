@@ -55,7 +55,7 @@
     "dissolved": "Este Estate ha sido disuelto"
   },
   "vendors": {
-    "decentraland": "Decentraland",
+    "decentraland": "Birdezkingdom",
     "super_rare": "SuperRare",
     "makers_place": "MakersPlace",
     "known_origin": "KnownOrigin"
@@ -94,7 +94,7 @@
     "wearables_skin": "Skin",
     "emotes": "Emotes",
     "ens": "Nombres",
-    "decentraland": "Decentraland",
+    "decentraland": "Birdezkingdom",
     "super_rare": "SuperRare",
     "known_origin": "KnownOrigin",
     "makers_place": "MakersPlace",
@@ -124,8 +124,8 @@
     "size": "Tamaño"
   },
   "home_page": {
-    "title": "Mercado de Decentraland",
-    "subtitle": "Bienvenido al mercado virtual de Decentraland, donde encontrarás los mejores ítems virtuales.",
+    "title": "Mercado de Birdezkingdom",
+    "subtitle": "Bienvenido al mercado virtual de Birdezkingdom, donde encontrarás los mejores ítems virtuales.",
     "get_started": "Comienza a navegar",
     "home_items": "Últimos items",
     "home_sold_items": "Últimas ventas",
@@ -159,7 +159,7 @@
     "unsaved_changes": "Perderá todos los cambios no guardados, ¿está seguro de que desea continuar?"
   },
   "external_link_modal": {
-    "header": "Estas saliendo de Decentraland",
+    "header": "Estas saliendo de Birdezkingdom",
     "before_link": "Al hacer clic en ACEPTAR, serás redirigido a:",
     "after_link": "Por favor, fíjese que el link no contenga nada sospechoso para así no ser víctima de un ataque."
   },
@@ -231,9 +231,9 @@
       "see_listing": "Ver publicación",
       "sell": "Vender",
       "transfer": "Transferir",
-      "leaving_decentraland": "Saliendo de Decentraland",
-      "leaving_decentraland_description": "Aún no se pueden publicar o actualizar {vendor} assets en el Marketplace de Decentraland. ¿Quiere proceder a {vendor_link} para publicarlo ahí?",
-      "leaving_decentraland_disclaimer": "Tus NFTs van a listarse en el Marketplace de Decentraland",
+      "leaving_decentraland": "Saliendo de Birdezkingdom",
+      "leaving_decentraland_description": "Aún no se pueden publicar o actualizar {vendor} assets en el Marketplace de Birdezkingdom. ¿Quiere proceder a {vendor_link} para publicarlo ahí?",
+      "leaving_decentraland_disclaimer": "Tus NFTs van a listarse en el Marketplace de Birdezkingdom",
       "edit_price": "Editar precio",
       "change_beneficiary": "Cambiar de beneficiario",
       "mint_item": "Acuñar item"

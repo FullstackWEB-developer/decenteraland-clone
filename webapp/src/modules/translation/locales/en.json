@@ -55,7 +55,7 @@
     "dissolved": "This Estate has been dissolved"
   },
   "vendors": {
-    "decentraland": "Decentraland",
+    "decentraland": "Birdezkingdom",
     "super_rare": "SuperRare",
     "makers_place": "MakersPlace",
     "known_origin": "KnownOrigin"
@@ -96,7 +96,7 @@
     "ens": "Names",
     "editions": "Editions",
     "tokens": "Tokens",
-    "decentraland": "Decentraland",
+    "decentraland": "Birdezkingdom",
     "super_rare": "SuperRare",
     "known_origin": "KnownOrigin",
     "makers_place": "MakersPlace",
@@ -161,7 +161,7 @@
     "unsaved_changes": "You will lose any unsaved changes, are you sure you want to leave?"
   },
   "external_link_modal": {
-    "header": "You are exiting Decentraland",
+    "header": "You are exiting Birdezkingdom",
     "before_link": "By clicking PROCEED, you will be redirected to:",
     "after_link": "Please check twice that the link has nothing suspicious on it to avoid being the victim of an attack."
   },
@@ -233,9 +233,9 @@
       "see_listing": "See listing",
       "sell": "Sell",
       "transfer": "Transfer",
-      "leaving_decentraland": "Leaving Decentraland",
-      "leaving_decentraland_description": "You can't publish or update {vendor} assets to the Decentraland Marketplace yet. Do you want to proceed to {vendor_link} to publish it there?",
-      "leaving_decentraland_disclaimer": "Your NFTs will still be listed in the Decentraland Marketplace",
+      "leaving_decentraland": "Leaving Birdezkingdom",
+      "leaving_decentraland_description": "You can't publish or update {vendor} assets to the Birdezkingdom Marketplace yet. Do you want to proceed to {vendor_link} to publish it there?",
+      "leaving_decentraland_disclaimer": "Your NFTs will still be listed in the Birdezkingdom Marketplace",
       "edit_price": "Edit price",
       "change_beneficiary": "Change beneficiary",
       "mint_item": "Mint item"

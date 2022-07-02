@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://market.decentraland.org/sitemap.xml
+Sitemap: https://market-birdezkingdom.vercel.app/sitemap.xml
