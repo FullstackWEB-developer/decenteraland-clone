@@ -15,7 +15,7 @@
     "decentraland-connect": "^3.3.2",
     "dcl-dapps": "latest",
     "decentraland-transactions": "^1.38.0",
-    "dcl-ui": "latest",
+    "dcl-ui": "^0.1.8",
     "dotenv": "^10.0.0",
     "ethers": "^5.6.8",
     "graphql": "^14.7.0",
