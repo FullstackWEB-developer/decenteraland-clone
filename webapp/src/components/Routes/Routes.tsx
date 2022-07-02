@@ -72,9 +72,9 @@ const Routes = () => {
         />
         <Redirect to={locations.root()} />
       </Switch>
-      {APP_ID ? (
+      {/* {APP_ID ? (
         <Intercom appId={APP_ID} settings={{ alignment: 'right' }} />
-      ) : null}
+      ) : null} */}
     </>
   )
 }
