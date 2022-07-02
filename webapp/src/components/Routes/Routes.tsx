@@ -1,5 +1,5 @@
 import { Switch, Route, Redirect } from 'react-router-dom'
-import Intercom from 'dcl-dapps/dist/components/Intercom'
+// import Intercom from 'dcl-dapps/dist/components/Intercom'
 
 import { AssetType } from '../../modules/asset/types'
 import { locations } from '../../modules/routing/locations'
@@ -18,10 +18,10 @@ import { HomePage } from '../HomePage'
 import { LegacyNFTPage } from '../LegacyNFTPage'
 import { LandsPage } from '../LandsPage'
 import CollectionPage from '../CollectionPage'
-import { config } from '../../config'
+// import { config } from '../../config'
 
 const Routes = () => {
-  const APP_ID = config.get('INTERCOM_APP_ID')
+  // const APP_ID = config.get('INTERCOM_APP_ID')
 
   return (
     <>
@@ -72,9 +72,9 @@ const Routes = () => {
         />
         <Redirect to={locations.root()} />
       </Switch>
-      {APP_ID ? (
+      {/* {APP_ID ? (
         <Intercom appId={APP_ID} settings={{ alignment: 'right' }} />
-      ) : null}
+      ) : null} */}
     </>
   )
 }
