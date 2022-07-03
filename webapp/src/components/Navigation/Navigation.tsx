@@ -13,11 +13,11 @@ const Navigation = (props: Props) => {
   return (
     <Tabs isFullscreen={isFullscreen}>
       <Tabs.Left>
-        <Link to={locations.lands()}>
+        {/* <Link to={locations.lands()}>
           <Tabs.Tab active={activeTab === NavigationTab.LANDS}>
             {t('navigation.land')}
           </Tabs.Tab>
-        </Link>
+        </Link> */}
         <Link
           to={locations.browse({
             section: decentraland.Section.WEARABLES,
