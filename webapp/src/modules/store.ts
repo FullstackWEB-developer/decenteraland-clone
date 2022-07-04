@@ -23,6 +23,11 @@ export function initStore() {
   const anyWindow = window as any
 
   const isDev = config.is(Env.DEVELOPMENT)
+  console.log(
+    '🚀 ~ file: store.ts ~ line 26 ~ initStore ~ getEnv',
+    config.getEnv()
+  )
+  console.log("🚀 ~ file: store.ts ~ line 26 ~ initStore ~ isDev", isDev)
 
   const composeEnhancers =
     isDev && anyWindow.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__

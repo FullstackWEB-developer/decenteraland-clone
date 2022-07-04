@@ -10,6 +10,7 @@ import { nftAPI } from './nft'
 import { config } from '../../../config'
 
 const network = config.get('NETWORK')! as AppNetwork
+console.log("🚀 ~ file: ContractService.ts ~ line 13 ~ network", network)
 
 export enum ContractName {
   MANA = 'MANA',
