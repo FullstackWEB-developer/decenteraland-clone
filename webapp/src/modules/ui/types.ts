@@ -5,7 +5,7 @@ export const View = {
   HOME_NEW_ITEMS: 'home_new_items',
   HOME_SOLD_ITEMS: 'home_sold_items',
   HOME_WEARABLES: 'home_wearables',
-  HOME_LAND: 'home_land',
+  // HOME_LAND: 'home_land',
   HOME_ENS: 'home_ens',
   PARTNERS_SUPER_RARE: 'super_rare',
   PARTNERS_MAKERS_PLACE: 'makers_place',

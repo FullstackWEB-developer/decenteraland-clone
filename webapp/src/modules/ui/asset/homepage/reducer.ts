@@ -12,7 +12,7 @@ export type HomepageUIState = {
   [View.HOME_NEW_ITEMS]: string[]
   [View.HOME_SOLD_ITEMS]: string[]
   [View.HOME_WEARABLES]: string[]
-  [View.HOME_LAND]: string[]
+  // [View.HOME_LAND]: string[]
   [View.HOME_ENS]: string[]
 }
 
@@ -20,7 +20,7 @@ const INITIAL_STATE: HomepageUIState = {
   [View.HOME_NEW_ITEMS]: [],
   [View.HOME_SOLD_ITEMS]: [],
   [View.HOME_WEARABLES]: [],
-  [View.HOME_LAND]: [],
+  // [View.HOME_LAND]: [],
   [View.HOME_ENS]: []
 }
 
@@ -63,12 +63,12 @@ export function homepageReducer(
             [View.HOME_WEARABLES]: nftIds
           }
         }
-        case View.HOME_LAND: {
-          return {
-            ...state,
-            [View.HOME_LAND]: nftIds
-          }
-        }
+        // case View.HOME_LAND: {
+        //   return {
+        //     ...state,
+        //     [View.HOME_LAND]: nftIds
+        //   }
+        // }
         case View.HOME_ENS: {
           return {
             ...state,
