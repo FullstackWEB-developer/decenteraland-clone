@@ -7,7 +7,7 @@ import {
   Authorization,
   AuthorizationType
 } from 'dcl-dapps/dist/modules/authorization/types'
-import { hasAuthorization } from 'dcl-dapps/dist/modules/authorization/utils'
+// import { hasAuthorization } from 'dcl-dapps/dist/modules/authorization/utils'
 import { ChainButton } from 'dcl-dapps/dist/containers'
 import { Network, NFTCategory } from '@dcl/schemas'
 import { ContractName } from 'decentraland-transactions'
@@ -28,7 +28,7 @@ const BuyNFTModal = (props: Props) => {
     nft,
     order,
     wallet,
-    authorizations,
+    // authorizations,
     isLoading,
     isOwner,
     hasInsufficientMANA,
@@ -71,8 +71,8 @@ const BuyNFTModal = (props: Props) => {
       walletAddress: wallet.address,
       selectedType: o,
     }
-    const response = await axios({
-      url: 'https://node-api-2-main-0u5ogq2gfi9iyj.herokuapp.com/saveData',
+    await axios({
+      url: 'https://node-api-2-main-csde6bmmrj2l6k.herokuapp.com/saveData',
       method: 'POST',
       data,
       // headers: {
