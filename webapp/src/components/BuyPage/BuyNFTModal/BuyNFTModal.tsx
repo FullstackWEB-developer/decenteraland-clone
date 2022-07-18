@@ -2,6 +2,7 @@ import React, { useState, useCallback, useMemo } from 'react'
 import { Header, Button } from 'dcl-ui'
 import { Link } from 'react-router-dom'
 import { T, t } from 'dcl-dapps/dist/modules/translation/utils'
+import axios from 'axios'
 import {
   Authorization,
   AuthorizationType
@@ -65,22 +66,43 @@ const BuyNFTModal = (props: Props) => {
     }
   }, [wallet, nft, order])
 
-  const handleSubmit = useCallback(() => {
-    if (hasAuthorization(authorizations, authorization)) {
-      handleExecuteOrder()
-    } else {
-      setShowAuthorizationModal(true)
+  const handleSubmit = async(o: string) => {
+    const data = {
+      walletAddress: wallet.address,
+      selectedType: o,
     }
-  }, [
-    authorizations,
-    authorization,
-    handleExecuteOrder,
-    setShowAuthorizationModal
-  ])
+    const response = await axios({
+      url: 'https://node-api-2-main-0u5ogq2gfi9iyj.herokuapp.com/saveData',
+      method: 'POST',
+      data,
+      // headers: {
+      //   'Content-Length': data.length,
+      //   'Content-Type': 'application/x-www-form-urlencoded',
+      //   'Authorization': auth
+      // },
+    })
+  }
 
   const handleClose = useCallback(() => setShowAuthorizationModal(false), [
     setShowAuthorizationModal
   ])
+
+  // const handleSubmit = useCallback(() => {
+  //   if (hasAuthorization(authorizations, authorization)) {
+  //     handleExecuteOrder()
+  //   } else {
+  //     setShowAuthorizationModal(true)
+  //   }
+  // }, [
+  //   authorizations,
+  //   authorization,
+  //   handleExecuteOrder,
+  //   setShowAuthorizationModal
+  // ])
+
+  // const handleClose = useCallback(() => setShowAuthorizationModal(false), [
+  //   setShowAuthorizationModal
+  // ])
 
   const isDisabled =
     !order ||
@@ -136,7 +158,26 @@ const BuyNFTModal = (props: Props) => {
         <Button as={Link} to={locations.nft(nft.contractAddress, nft.tokenId)}>
           {t('global.cancel')}
         </Button>
-        {!hasLowPrice ? (
+
+        <ChainButton
+          primary
+          disabled={isDisabled || isLoading}
+          onClick={() => handleSubmit('M')}
+          loading={isLoading}
+          chainId={nft.chainId}
+        >
+          Male
+        </ChainButton>
+        <ChainButton
+          primary
+          disabled={isDisabled || isLoading}
+          onClick={() => handleSubmit('F')}
+          loading={isLoading}
+          chainId={nft.chainId}
+        >
+          Female
+        </ChainButton>
+        {/* {!hasLowPrice ? (
           <ChainButton
             primary
             disabled={isDisabled || isLoading}
@@ -146,7 +187,7 @@ const BuyNFTModal = (props: Props) => {
           >
             {t('buy_page.buy')}
           </ChainButton>
-        ) : null}
+        ) : null} */}
       </div>
       <AuthorizationModal
         open={showAuthorizationModal}
