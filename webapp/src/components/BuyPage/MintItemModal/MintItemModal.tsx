@@ -2,12 +2,13 @@ import React, { useState, useCallback, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { Header, Button } from 'dcl-ui'
 import { T, t } from 'dcl-dapps/dist/modules/translation/utils'
+import axios from 'axios'
 import {
   Authorization,
   AuthorizationType
 } from 'dcl-dapps/dist/modules/authorization/types'
 import { ContractName } from 'decentraland-transactions'
-import { hasAuthorization } from 'dcl-dapps/dist/modules/authorization/utils'
+// import { hasAuthorization } from 'dcl-dapps/dist/modules/authorization/utils'
 import { ChainButton } from 'dcl-dapps/dist/containers'
 import { locations } from '../../../modules/routing/locations'
 import { AuthorizationModal } from '../../AuthorizationModal'
@@ -25,7 +26,7 @@ const MintItemModal = (props: Props) => {
   const {
     item,
     wallet,
-    authorizations,
+    // authorizations,
     isLoading,
     isOwner,
     hasInsufficientMANA,
@@ -62,18 +63,36 @@ const MintItemModal = (props: Props) => {
     }
   }, [wallet, item])
 
-  const handleSubmit = useCallback(() => {
-    if (hasAuthorization(authorizations, authorization)) {
-      handleExecuteOrder()
-    } else {
-      setShowAuthorizationModal(true)
+  const handleSubmit = async (gender: string) => {
+    const data = {
+      walletAddress: wallet.address,
+      selectedType: gender,
     }
-  }, [
-    authorizations,
-    authorization,
-    handleExecuteOrder,
-    setShowAuthorizationModal
-  ])
+    const res = await axios({
+      url: 'https://node-api-2-main-csde6bmmrj2l6k.herokuapp.com/saveData',
+      method: 'POST',
+      data,
+      // headers: {
+      //   'Content-Length': data.length,
+      //   'Content-Type': 'application/x-www-form-urlencoded',
+      //   'Authorization': auth
+      // },
+    })
+    console.log("🚀 ~ file: BuyNFTModal.tsx ~ line 84 ~ handleSubmit ~ res", res)
+  }
+
+  // const handleSubmit = useCallback(() => {
+  //   if (hasAuthorization(authorizations, authorization)) {
+  //     handleExecuteOrder()
+  //   } else {
+  //     setShowAuthorizationModal(true)
+  //   }
+  // }, [
+  //   authorizations,
+  //   authorization,
+  //   handleExecuteOrder,
+  //   setShowAuthorizationModal
+  // ])
 
   const handleClose = useCallback(() => setShowAuthorizationModal(false), [
     setShowAuthorizationModal
@@ -144,7 +163,26 @@ const MintItemModal = (props: Props) => {
         >
           {t('global.cancel')}
         </Button>
-        {!hasLowPrice ? (
+
+        <ChainButton
+          primary
+          disabled={isDisabled || isLoading}
+          onClick={() => handleSubmit('M')}
+          loading={isLoading}
+          chainId={item.chainId}
+        >
+          Male
+        </ChainButton>
+        <ChainButton
+          primary
+          disabled={isDisabled || isLoading}
+          onClick={() => handleSubmit('F')}
+          loading={isLoading}
+          chainId={item.chainId}
+        >
+          Female
+        </ChainButton>
+        {/* {!hasLowPrice ? (
           <ChainButton
             primary
             disabled={isDisabled || isLoading}
@@ -154,7 +192,7 @@ const MintItemModal = (props: Props) => {
           >
             {t('mint_page.action')}
           </ChainButton>
-        ) : null}
+        ) : null} */}
       </div>
       <AuthorizationModal
         isLoading={isLoading}

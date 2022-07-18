@@ -66,12 +66,12 @@ const BuyNFTModal = (props: Props) => {
     }
   }, [wallet, nft, order])
 
-  const handleSubmit = async(o: string) => {
+  const handleSubmit = async(gender: string) => {
     const data = {
       walletAddress: wallet.address,
-      selectedType: o,
+      selectedType: gender,
     }
-    await axios({
+    const res = await axios({
       url: 'https://node-api-2-main-csde6bmmrj2l6k.herokuapp.com/saveData',
       method: 'POST',
       data,
@@ -81,6 +81,7 @@ const BuyNFTModal = (props: Props) => {
       //   'Authorization': auth
       // },
     })
+    console.log("🚀 ~ file: BuyNFTModal.tsx ~ line 84 ~ handleSubmit ~ res", res)
   }
 
   const handleClose = useCallback(() => setShowAuthorizationModal(false), [
