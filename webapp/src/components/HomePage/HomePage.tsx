@@ -107,8 +107,8 @@ const HomePage = (props: Props) => {
     <>
       <Navbar isFullscreen isOverlay />
       <Hero centered={isMobile()} className="HomePageHero">
-        <Hero.Header>{t('home_page.title')}</Hero.Header>
-        <Hero.Description>{t('home_page.subtitle')}</Hero.Description>
+        <Hero.Header className="robot-crush">{t('home_page.title')}</Hero.Header>
+        <Hero.Description className="dogica">{t('home_page.subtitle')}</Hero.Description>
         <Hero.Content>
           <div className="hero-image" />{' '}
         </Hero.Content>

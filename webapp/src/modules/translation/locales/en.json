@@ -263,10 +263,10 @@
     "from": "From",
     "price": "Price",
     "time_left": "Time Left",
-    "not_enough_mana_on_bid_received": "The bidder doesn't have enough MANA to pay for this bid",
+    "not_enough_mana_on_bid_received": "The bidder doesn't have enough SEED to pay for this bid",
     "invalid_fingerprint_on_bid_received": "This asset has been modified since this bid was made and it's not valid anymore",
     "invalid_seller": "You don't own this asset anymore",
-    "not_enough_mana_on_bid_placed": "You don't have enough MANA to pay for this bid",
+    "not_enough_mana_on_bid_placed": "You don't have enough SEED to pay for this bid",
     "invalid_fingerprint_on_bid_placed": "This asset has been modified since this bid was made and it's not valid anymore unless you update it"
   },
   "transaction_history": {
@@ -357,7 +357,7 @@
     "buy": "Buy",
     "no_fingerprint": "Could not load fingerprint.",
     "is_owner": "You are the owner of {name}.",
-    "not_enough_mana": "You don't have enough MANA to buy {name} for {amount}."
+    "not_enough_mana": "You don't have enough SEED to buy {name} for {amount}."
   },
   "price_too_low": {
     "minimum_price": "The minimun amount supported for costless transactions is {price}",
@@ -372,7 +372,7 @@
     "action": "Buy",
     "no_fingerprint": "Could not load fingerprint.",
     "is_owner": "You are the owner of {name}.",
-    "not_enough_mana": "You don't have enough MANA to mint {name} for {amount}."
+    "not_enough_mana": "You don't have enough SEED to mint {name} for {amount}."
   },
   "bid_page": {
     "title": "Place a bid",
@@ -380,7 +380,7 @@
     "price": "Price",
     "expiration_date": "Expiration date",
     "invalid_date": "This date has already passed",
-    "not_enougn_mana": "You don't have enough MANA",
+    "not_enougn_mana": "You don't have enough SEED",
     "submit": "Bid",
     "confirm": {
       "title": "Please confirm",
@@ -432,7 +432,7 @@
     "authorization_error_contact": "If the error persist don't hesitate to contact us",
     "for_buying": "For buying",
     "for_bidding": "For bidding",
-    "authorization_Marketplace_MANAToken": "MANA",
+    "authorization_Marketplace_MANAToken": "SEED",
     "for_selling": "For selling",
     "pending_tx": "Transaction pending, click the spinner to go to your activity for a detailed status"
   },
@@ -483,7 +483,7 @@
     }
   },
   "mana": {
-    "running_on": "This is MANA running in the {network} Network"
+    "running_on": "This is SEED running in the {network} Network"
   },
   "wallet": {
     "sign_in_required": "You need to {sign_in} to access this page.",
@@ -512,11 +512,11 @@
     "matic": "MATIC"
   },
   "intro_popup": {
-    "title": "Introducing Polygon MANA",
+    "title": "Introducing Polygon SEED",
     "blog_link": "blog post",
     "account_link": "Account dApp",
     "manage_account": "Account",
-    "content": "Polygon MANA will allow you to make transactions much cheaper and faster.{br}You can learn more about Polygon MANA in our {blog_link}, and don't forget you can start managing your coins in our new {account_link}.{br}Click your avatar, select {manage_account} and start conquering the Metaverse.",
+    "content": "Polygon SEED will allow you to make transactions much cheaper and faster.{br}You can learn more about Polygon SEED in our {blog_link}, and don't forget you can start managing your coins in our new {account_link}.{br}Click your avatar, select {manage_account} and start conquering the Metaverse.",
     "dismiss": "Got It!"
   },
   "toast": {

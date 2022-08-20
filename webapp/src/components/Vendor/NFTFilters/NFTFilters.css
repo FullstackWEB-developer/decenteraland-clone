@@ -221,7 +221,7 @@
 }
 
 .NFTFilters .smart-toggle {
-  background: #37333d;
+  background: var(--background-secondary);
   padding: 8px;
   border-radius: 6px;
   width: 32px;

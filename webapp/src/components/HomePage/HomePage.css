@@ -2,6 +2,10 @@
   height: var(--page-header-height);
 }
 
+.HomePageHero .hero-content {
+  z-index: -1;
+}
+
 .HomePageHero .hero-image {
   position: absolute;
   top: 0px;
@@ -11,6 +15,14 @@
   background-image: url(../../images/hero.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.HomePageHero.dcl.hero .ui.header.robot-crush {
+  font-size: 64px;
+}
+
+.HomePageHero.dcl.hero .ui.header.dogica {
+  font-size: 18px;
 }
 
 .HomePageHero.dcl.hero .ui.header.hero-subtitle {

@@ -5,7 +5,7 @@
 
 .ArrayFilter .options .option {
   padding: 5px 10px;
-  background-color: #37333d;
+  background-color: var(--background-secondary);
   border-radius: 16px;
   text-transform: uppercase;
   font-weight: 600;

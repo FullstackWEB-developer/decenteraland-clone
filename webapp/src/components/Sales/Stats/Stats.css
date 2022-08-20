@@ -30,7 +30,7 @@
   height: 48px;
   min-width: 48px;
   min-height: 48px;
-  background-color: #37333d;
+  background-color: var(--background-secondary);
   border-radius: 50%;
   margin-right: 16px;
   display: flex;

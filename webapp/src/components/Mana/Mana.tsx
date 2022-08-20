@@ -9,7 +9,7 @@ const Mana = (props: Props) => {
 
   if (withTooltip && !manaProps.network) {
     throw new Error(
-      "You need to specify the MANA network if you're going to show a tooltip"
+      "You need to specify the network if you're going to show a tooltip"
     )
   }
 

@@ -1,5 +1,17 @@
+@font-face {
+  font-family: 'dogica';
+  src: url('./themes/font/dogica.ttf');
+}
+
+@font-face {
+  font-family: 'robot-crush';
+  src: url('./themes/font/robot-crush.ttf');
+}
+
 :root {
   --page-header-height: 420px;
+  --background: #150a24;
+  --background-secondary: #130919e5;
 }
 
 body {
@@ -14,6 +26,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.dogica {
+  font-family: dogica, -apple-system, Arial, Helvetica, sans-serif !important;
+  letter-spacing: -2.5px !important;
+}
+
+.robot-crush {
+  font-family: robot-crush, -apple-system, Arial, Helvetica, sans-serif !important;
+  text-shadow: rgb(106 69 160) 0px 0px 1px, rgb(106 69 160) 0px 0px 2px, rgb(106 69 160) 0px 0px 3px, rgb(106 69 160) 0px 0px 4px, rgb(106 69 160) 0px 0px 5px, rgb(106 69 160) 0px 0px 6px !important;
 }
 
 .danger-text {

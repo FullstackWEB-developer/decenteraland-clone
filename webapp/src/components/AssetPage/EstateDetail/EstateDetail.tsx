@@ -53,7 +53,7 @@ const EstateDetail = ({ nft }: Props) => {
       isOnSale={!!nft.activeOrderId}
       badges={
         <>
-          <Badge color="#37333d">{estate.size.toLocaleString()} LAND</Badge>
+          <Badge color="var(--background-secondary)">{estate.size.toLocaleString()} LAND</Badge>
           {estate.size > 0 ? <JumpIn x={x} y={y} /> : null}
         </>
       }

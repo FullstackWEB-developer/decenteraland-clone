@@ -7,7 +7,7 @@ const Coordinate = (props: Props) => {
   const { x, y, className } = props
 
   return (
-    <Badge className={className} color="#37333D">
+    <Badge className={className} color="var(--background-secondary)">
       <i className={styles.pin} />
       {`${x},${y}`}
     </Badge>

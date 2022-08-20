@@ -10,3 +10,14 @@
 .ui.button + .ui.button {
   margin-left: 16px;
 }
+
+button .violet {
+  background: #6a45a0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #6a45a0;
+}
+
+button .green {
+    background-color: rgb(107, 221, 99);
+    box-shadow: rgb(107 221 99 / 67%) 0px 0px 10px, rgb(107 221 99 / 67%) 0px 0px 12px;
+  }

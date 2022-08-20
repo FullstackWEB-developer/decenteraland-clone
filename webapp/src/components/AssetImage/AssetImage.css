@@ -42,7 +42,7 @@
   background-image: url('../../images/logo_dark.svg');
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #37333d;
+  background-color: var(--background-secondary);
   color: white;
   flex-direction: column;
 }

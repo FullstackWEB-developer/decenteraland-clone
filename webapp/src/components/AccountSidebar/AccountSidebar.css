@@ -20,7 +20,7 @@
 }
 
 .AccountSidebar ul.Menu > .MenuItem.active {
-  background-color: #37333d;
+  background-color: var(--background-secondary);
 }
 
 .AccountSidebar ul.Menu > .MenuItem.sub-1 {
@@ -43,7 +43,7 @@
 
 .AccountSidebar .alternative-menu-item:hover,
 .AccountSidebar .alternative-menu-item.selected {
-  background-color: #37333d;
+  background-color: var(--background-secondary);
   border-radius: 6px;
   cursor: pointer;
 }

@@ -261,10 +261,10 @@
     "from": "从",
     "price": "价格",
     "time_left": "剩下时间",
-    "not_enough_mana_on_bid_received": "投标人没有足够的MANA来支付此投标",
+    "not_enough_mana_on_bid_received": "投标人没有足够的SEED来支付此投标",
     "invalid_fingerprint_on_bid_received": "此资产自此出价以来已被修改，因此不再有效",
     "invalid_seller": "您不再拥有此资产",
-    "not_enough_mana_on_bid_placed": "您没有足够的MANA来支付此出价",
+    "not_enough_mana_on_bid_placed": "您没有足够的SEED来支付此出价",
     "invalid_fingerprint_on_bid_placed": "此资产自出价后就已被修改，除非您对其进行更新，否则它将不再有效"
   },
   "transaction_history": {
@@ -355,7 +355,7 @@
     "buy": "购买",
     "no_fingerprint": "无法加载指纹。",
     "is_owner": "您是{name}的所有者。",
-    "not_enough_mana": "您没有足够的MANA来购买{name}。"
+    "not_enough_mana": "您没有足够的SEED来购买{name}。"
   },
   "price_too_low": {
     "minimum_price": "无成本交易支持的最低金额为 {price}",
@@ -370,7 +370,7 @@
     "action": "购买",
     "no_fingerprint": "无法加载指纹。",
     "is_owner": "您是{name}的所有者。",
-    "not_enough_mana": "您没有足够的MANA来购买{name}。"
+    "not_enough_mana": "您没有足够的SEED来购买{name}。"
   },
   "bid_page": {
     "title": "出价",
@@ -378,7 +378,7 @@
     "price": "价格",
     "expiration_date": "截止日期",
     "invalid_date": "这个日期已过期",
-    "not_enougn_mana": "您没有足够的MANA",
+    "not_enougn_mana": "您没有足够的SEED",
     "submit": "出价",
     "confirm": {
       "title": "请确认",
@@ -430,7 +430,7 @@
     "authorization_error_contact": "如果错误仍然存​​在，请随时与我们联系",
     "for_buying": "购买",
     "for_bidding": "出价",
-    "authorization_Marketplace_MANAToken": "MANA",
+    "authorization_Marketplace_SEEDToken": "SEED",
     "for_selling": "出售",
     "pending_tx": "待处理的交易，请单击微调器以转到活动详细状态"
   },
@@ -481,7 +481,7 @@
     }
   },
   "mana": {
-    "running_on": "这是{network}网络中运行的MANA"
+    "running_on": "这是{network}网络中运行的SEED"
   },
   "wallet": {
     "sign_in_required": "您需要{sign_in}才能访问此页面。",
@@ -510,11 +510,11 @@
     "matic": "MATIC"
   },
   "intro_popup": {
-    "title": "介绍Polygon MANA",
+    "title": "介绍Polygon SEED",
     "blog_link": "博客文章",
     "account_link": "帐户dApp",
     "manage_account": "管理帐户",
-    "content": "Polygon MANA将使您更快地进行购买。{br}您可以在我们的{blog_link}中了解有关Polygon MANA的更多信息。{br}您还可以在新的{ account_link}。{br}点击您的头像，选择{manage_account}，然后开始征服Metaverse。",
+    "content": "Polygon SEED将使您更快地进行购买。{br}您可以在我们的{blog_link}中了解有关Polygon SEED的更多信息。{br}您还可以在新的{ account_link}。{br}点击您的头像，选择{manage_account}，然后开始征服Metaverse。",
     "dismiss": "知道了！"
   },
   "toast": {

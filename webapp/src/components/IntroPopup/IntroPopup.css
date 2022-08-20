@@ -29,13 +29,13 @@
 
 .IntroPopup.ui.popup {
   max-width: 420px;
-  background-color: #37333d;
+  background-color: var(--background-secondary);
   border-radius: 12px;
   padding: 24px;
 }
 
 .IntroPopup.ui.bottom.popup:before {
-  background-color: #37333d;
+  background-color: var(--background-secondary);
 }
 
 .IntroPopup .ui.header {

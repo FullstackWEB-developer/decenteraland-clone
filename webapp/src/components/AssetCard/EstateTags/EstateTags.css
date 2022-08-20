@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   border-radius: 4px;
-  background-color: #37333d;
+  background-color: var(--background-secondary);
   font-size: 12px;
   line-height: 14px;
   color: white;

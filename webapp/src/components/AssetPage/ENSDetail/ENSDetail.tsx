@@ -17,7 +17,7 @@ const ENSDetail = ({ nft }: Props) => (
     asset={nft}
     assetImage={<AssetImage asset={nft} showMonospace />}
     isOnSale={!!nft.activeOrderId}
-    badges={<Badge color="#37333d">{t('global.ens')}</Badge>}
+    badges={<Badge color="var(--background-secondary)">{t('global.ens')}</Badge>}
     left={<Owner asset={nft} />}
     box={
       <>

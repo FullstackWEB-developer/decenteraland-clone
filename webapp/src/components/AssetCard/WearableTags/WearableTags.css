@@ -18,7 +18,7 @@
   background-size: 16px 16px;
   width: 24px;
   height: 24px;
-  background-color: #37333d;
+  background-color: var(--background-secondary);
   border-radius: 4px;
 }
 

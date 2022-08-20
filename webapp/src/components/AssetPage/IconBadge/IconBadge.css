@@ -5,7 +5,7 @@
   padding: 4px 12px;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #37333d;
+  background-color: var(--background-secondary);
 }
 
 .IconBadge .text {
