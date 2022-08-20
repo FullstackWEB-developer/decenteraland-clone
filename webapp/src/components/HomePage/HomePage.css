@@ -19,13 +19,21 @@
 
 .HomePageHero.dcl.hero .ui.header.robot-crush {
   font-size: 64px;
+  margin-top: 54px;
 }
 
 .HomePageHero.dcl.hero .ui.header.dogica {
   font-size: 18px;
+  margin-bottom: 14px;
 }
 
 .HomePageHero.dcl.hero .ui.header.hero-subtitle {
   margin-bottom: 24px;
   color: var(--secondary-text);
+}
+
+.HomePageHero .ui.button.primary {
+  background-color: rgb(162, 107, 243);
+  box-shadow: rgb(162 107 243) 0px 0px 10px, rgb(162 107 243) 0px 0px 12px;
+  /* border-radius: 0px; */
 }
