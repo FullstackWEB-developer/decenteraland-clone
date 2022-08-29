@@ -49,7 +49,7 @@ export default class IntroPopup extends PureComponent<Props, State> {
                     ),
                     account_link: (
                       <a
-                        href="https://account-birdezkingdom.vercel.app"
+                        href="https://account.birdezkingdom.com"
                         target="_blank"
                         rel="noopener noreferrer"
                       >

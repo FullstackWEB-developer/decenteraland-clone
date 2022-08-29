@@ -67,7 +67,7 @@ export function getFilters(
 export function getOriginURL(vendor: VendorName) {
   switch (vendor) {
     case VendorName.DECENTRALAND:
-      return 'https://market-birdezkingdom.vercel.app'
+      return 'https://market.birdezkingdom.com'
     case VendorName.SUPER_RARE:
       return 'https://www.superrare.co'
     case VendorName.MAKERS_PLACE:

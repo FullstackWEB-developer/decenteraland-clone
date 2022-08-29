@@ -5,7 +5,7 @@
   "ATLAS_SERVER_URL": "https://api.decentraland.net",
   "PEER_URL": "https://peer.decentraland.org",
   "TRANSACTIONS_API_URL": "https://transactions-api.decentraland.net/v1",
-  "BUILDER_URL": "https://builder-birdezkingdom.vercel.app",
+  "BUILDER_URL": "https://builder.birdezkingdom.com",
   "COINGECKO_API_URL": "https://api.coingecko.com/api/v3",
   "SUPER_RARE_API_URL": "https://superrare.co/sr-json/v0",
   "SUPER_RARE_API_KEY": "eyJhbGciOiJIUzUxMiJ9.eyJkYXQiOiJEQ0wifQ.UADwL-MaLbS4NmMIGc87iztzGIttxQ0rVCRCRYBHYMs4CKySywpb0esh68lgcHxb6hODxLHEJjNxgwdPATLkfg",

@@ -1,6 +1,6 @@
 import React from 'react'
 import { UserMenu as BaseUserMenu } from 'dcl-dapps/dist/containers'
-import { IntroPopup } from '../IntroPopup'
+// import { IntroPopup } from '../IntroPopup'
 import { Props } from './UserMenu.types'
 
 export default class UserMenu extends React.PureComponent<Props> {
@@ -8,7 +8,7 @@ export default class UserMenu extends React.PureComponent<Props> {
     return (
       <>
         <BaseUserMenu {...this.props} />
-        <IntroPopup />
+        {/* <IntroPopup /> */}
       </>
     )
   }
