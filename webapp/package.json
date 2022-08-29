@@ -13,7 +13,7 @@
     "dcl-catalyst-client": "^12.0.1",
     "dcl-catalyst-commons": "^9.0.1",
     "dcl-dapps": "^0.1.4",
-    "dcl-ui": "^0.1.12",
+    "dcl-ui": "^0.1.13",
     "decentraland-connect": "^3.3.2",
     "decentraland-transactions": "^1.38.0",
     "dotenv": "^10.0.0",
