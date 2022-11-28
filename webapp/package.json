@@ -1,5 +1,5 @@
 {
-  "name": "@dcl/marketplace-site",
+  "name": "birdez/marketplace-site",
   "version": "client",
   "dependencies": {
     "@dcl/crypto": "^3.0.0",
@@ -78,7 +78,7 @@
     "semi": false
   },
   "engines": {
-    "node": ">= 16.0.0"
+    "node": "= 16.x"
   },
   "browserslist": {
     "production": [
